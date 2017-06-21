@@ -30,7 +30,7 @@ public class OnlineShoppingTest {
         element.buttonAction("SubmitLogin","id");
     }
 
-    @When("^I order a shirt$")
+    @When("^I order a T-shirt$")
     public void orderTShirt() throws InterruptedException, IOException {
         //element.alertDismiss();
         element.buttonAction("//*[@id='block_top_menu']//ul[contains(@class,'sf-menu')]//li[3]//a[contains(text(),'T-shirts')]", "xpath");

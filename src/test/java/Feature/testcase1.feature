@@ -7,8 +7,8 @@ Feature:
     And I login to my account
 
   @onlineShopping
-  Scenario: Order a shirt online
-    When I order a shirt
+  Scenario: Order a T-shirt online
+    When I order a T-shirt
     Then I should see that my order is exist in orderhistory
 
 
